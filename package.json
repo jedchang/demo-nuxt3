@@ -10,7 +10,7 @@
     "postinstall": "nuxt prepare",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "deploy": "nuxt generate && gh-pages -d dist"
+    "deploy": "gh-pages --dotfiles -d .output/public"
   },
   "engines": {
     "node": ">=20.15.0",
